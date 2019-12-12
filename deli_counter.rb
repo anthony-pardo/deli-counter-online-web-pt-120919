@@ -20,5 +20,6 @@ end
 
 def now_serving(deli_line)
   name = deli_line.pop()
+  if name 
   puts 
 end
