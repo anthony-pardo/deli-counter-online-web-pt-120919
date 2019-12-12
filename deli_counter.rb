@@ -19,7 +19,7 @@ def take_a_number(deli_line, name)
 end
 
 def now_serving(deli_line)
-  name = deli_line.pop()
+  name = deli_line.shift()
   if name 
     puts "Currently serving #{name}."
   else 
