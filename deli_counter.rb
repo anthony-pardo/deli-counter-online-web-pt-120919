@@ -11,3 +11,9 @@ def line(arr)
     puts str + new_str
   end
 end
+
+def take_a_number(deli_line, name) 
+  deli_line << name 
+  current_line_num = deli_line.size() + 1
+  puts "Welcome, #{name}. You are number #{current_line_num} in line."
+end
