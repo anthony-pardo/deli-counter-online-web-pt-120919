@@ -14,6 +14,6 @@ end
 
 def take_a_number(deli_line, name) 
   deli_line << name 
-  current_line_num = deli_line.size() + 1
+  current_line_num = deli_line.size()
   puts "Welcome, #{name}. You are number #{current_line_num} in line."
 end
