@@ -21,5 +21,8 @@ end
 def now_serving(deli_line)
   name = deli_line.pop()
   if name 
-  puts 
+    puts "Currently serving #{name}."
+  else 
+    puts "There is nobody waiting to be served!"
+  end
 end
